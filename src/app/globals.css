@@ -1,0 +1,96 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 217 90% 60%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 217 90% 60%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 217 90% 60%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 220 15% 5%;
+    --foreground: 210 40% 98%;
+    --card: 220 15% 9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 220 15% 5%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217 90% 60%;
+    --primary-foreground: 210 40% 9.8%;
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 217 90% 60%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 217 90% 65%;
+    --chart-1: 217 90% 60%;
+    --chart-2: 270 90% 70%;
+    --chart-3: 30 100% 50%;
+    --chart-4: 180 100% 35%;
+    --chart-5: 0 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+    @keyframes grid-pan {
+        from { background-position: 0 0; }
+        to { background-position: -2rem -2rem; }
+    }
+    @keyframes scan-beam {
+        0% { transform: translateY(-100%); }
+        50% { transform: translateY(200%); }
+        100% { transform: translateY(-100%); }
+    }
+}
+
+/* ---------- Markdown Table Fix ---------- */
+.prose table {
+  width: max-content;         /* let the table be as wide as it needs */
+}
+
+.prose table td,
+.prose table th {
+  white-space: nowrap;        /* DO NOT wrap numbers or values */
+}
+
+/* optional but nice */
+.prose table {
+  border-collapse: collapse;
+}
+
+.prose thead th {
+  font-weight: 600;
+}

